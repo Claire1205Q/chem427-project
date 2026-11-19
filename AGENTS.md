@@ -28,6 +28,9 @@ When the student asks for a plan, give it in words and write no code until the s
 
 The student replaces the three lines below and adds a line each time they correct the assistant on the same point twice.
 
-- Question: (one sentence)
-- Data: (the file in `data/`, what one row is, and its source URL and access date)
-- Measured variable: (its column name and unit)
+- Question: Which of eight vegetable oils can ¹H NMR quantify when blended into olive oil, does a one-band calibration on the bis-allylic signal fail for the oils whose linoleic content matches olive oil's, and does PLS on the whole spectrum succeed where it fails?
+- Data:  `data/NMR_raw-data.xlax`  
+    One row is one spectrum        
+    Source: https://zenodo.org/records/14747548
+    Access date 2026-11-18
+- Measured variable: 1H NMR intensity in each 0.02 ppm bin: relative units, scaled to half of one glycerol signal (dimensionless)
